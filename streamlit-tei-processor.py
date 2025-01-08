@@ -58,9 +58,12 @@ def main():
     st.title("TEI XML Dialogue Processor")
     
     st.write("""
-    This app processes TEI XML files containing dialogue data. You can either:
-    1. Upload an XML file
-    2. Paste XML content directly
+    This app processes TEI XML files containing dialogue data from the Henrik Ibsen's Writings project. 
+    You can find the TEI XML files at [The Henrik Ibsen's Writings](https://www.ibsen.uio.no/skuespill.xhtml).
+    
+    To use this app:
+    1. Download a TEI XML file from the Ibsen repository
+    2. Either upload the file here or paste its content directly
     """)
     
     # File upload
